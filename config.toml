@@ -1,0 +1,4 @@
+baseURL = 'http://example.com'
+languageCode = 'en-us'
+title = "Noelle's Dev Blogs"
+theme = 'hugo-theme-stack'
