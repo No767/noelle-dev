@@ -59,7 +59,7 @@ Cons:
 Now asyncpg is not a ORM, but a PostgreSQL driver for Python. It's quite literally the fastest Python driver (and PostgreSQL driver) out there. asyncpg has the record for being able to fetch millions of rows per second. The rationale for switching was this: after switching all of these ORMs, I wanted something simple. It's like learning only using Python and Java to avoid the deep end of C/C++ and Rust. asyncpg quite literally beats out every single ORM out there when it comes to performance, so it was like getting C native performance. To this day, it's what Kumiko uses, and the economy system is built entirely on asyncpg now.
 
 Pros:
-- Very fast. 5x faster than psycopg3, and faster than any Node.js based PG lib
+- Very fast. 5x faster than psycopg3-async, 5.89x faster than aiopg, and 8.2x faster compared to node-pg
 - Very simple to use. Literally you just need to know how to write SQL, and you are good to go
 - Connection pools are thing
 
